@@ -9,6 +9,8 @@ def predict(model, input_df):
     predictions_df = predict_model(estimator=model, data=input_df)
     predictions = predictions_df['Label'][0]
     return predictions
+
+
 def predict_online():
     age = st.number_input('Age', min_value=1, max_value=100, value=25)
     sex = st.selectbox('Sex', ['male', 'female'])
