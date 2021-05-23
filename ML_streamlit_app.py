@@ -15,7 +15,7 @@ def predict_online():
     age = st.number_input('Age', min_value=1, max_value=100, value=25)
     sex = st.selectbox('Sex', ['male', 'female'])
     bmi = st.number_input('BMI', min_value=10, max_value=50, value=10)
-    children = st.selectbox('Children', [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11])
+    children = st.selectbox('Children', [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12])
     if st.checkbox('Smoker'):
         smoker = 'yes'
     else:
