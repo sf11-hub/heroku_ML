@@ -2,7 +2,7 @@ from pycaret.regression import load_model, predict_model
 import streamlit as st
 import pandas as pd
 
-model = load_model('lr_deployment_20210521')
+model = load_model('./models/lr_deployment_20210521')
 
 
 def predict(model, input_df):

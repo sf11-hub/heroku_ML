@@ -12,4 +12,4 @@ r2 = setup(data, target='charges', session_id=123,
 
 lr = create_model('lr')
 tuned_lr = tune_model(lr)
-save_model(tuned_lr, model_name='lr_deployment_20210521')
+save_model(tuned_lr, model_name='./models/lr_deployment_20210521')
