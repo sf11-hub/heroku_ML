@@ -36,7 +36,7 @@ def predict_online():
 
 
 def predict_batch():
-    file_upload = st.file_uploader('upload a csv file for the predictions',
+    file_upload = st.file_uploader('upload a csv file for the predictions!',
                                    type='csv')
     if file_upload is not None:
         data = pd.read_csv(file_upload)
@@ -45,7 +45,7 @@ def predict_batch():
 
 
 def run():
-    st.image('images/alfa.jpeg', caption='impreza na budziszynskiej',
+    st.image('images/alfa.jpeg', caption='impreza na budziszynskiej!!!!',
              use_column_width=False)
 
     add_selectbox = st.sidebar.selectbox("Predict method?",
