@@ -45,7 +45,7 @@ def predict_batch():
 
 
 def run():
-    st.image('images/alfa.jpeg', caption='Training for F1',
+    st.image('images/alfa.jpeg', caption='impreza na budziszynskiej',
              use_column_width=False)
 
     add_selectbox = st.sidebar.selectbox("Predict method?",
