@@ -32,7 +32,7 @@ jobs:
         
       # Optional: Add step to run tests here (PyTest, Django test suites, etc.)
       - name: Run syntax test
-        run: flake8 --exclude=venv* --statistics pytest -v --cov=ML_streamlit_app
+        run: flake8 --exclude=venv* --statistics pytest -v
 
       - name: Upload artifact for deployment jobs
         uses: actions/upload-artifact@v2
