@@ -1,8 +1,11 @@
 from pycaret.regression import load_model, predict_model
 import streamlit as st
 import pandas as pd
+from decouple import config
 
-model = load_model('./models/lr_deployment_20210521')
+ML_model = config('ML_model', default='./models/lr_deployment_20210521')
+print(f'Loading ML model: {ML_model}')
+model = load_model(ML_model)
 
 
 def predict(model, input_df):

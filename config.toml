@@ -1,0 +1,7 @@
+# Below are all the sections and options you can have in ~/.streamlit/config.toml.
+
+[server]
+headless = true
+enableCORS = false
+enableXsrfProtection = false
+port = 80

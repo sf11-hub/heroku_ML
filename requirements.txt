@@ -3,7 +3,8 @@ streamlit
 pytest
 pytest-cov
 flake8
+python-decouple
 fastapi
-uvicorn
+gunicorn
 
 
