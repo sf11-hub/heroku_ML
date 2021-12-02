@@ -1,7 +1,7 @@
 from pycaret.datasets import get_data
 data = get_data('kiva')
 
-#check the shape of data
+# check the shape of data
 data.shape
 
 # sampling the data to select only 1000 documents

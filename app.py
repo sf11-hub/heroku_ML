@@ -18,4 +18,3 @@ def predict(age, sex, bmi, children, smoker, region):
 
     predictions = predict_model(model, data=data)
     return {'prediction': int(predictions['Label'][0])}
-
